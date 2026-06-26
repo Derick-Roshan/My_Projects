@@ -23,6 +23,8 @@ This repository contains my academic and personal projects related to AWS Cloud,
 - Technologies: Python, Streamlit, Scikit-Learn, AWS EC2, Amazon Linux, Git
 - Repository: https://github.com/Derick-Roshan/Predictive_maintanance
 - Screenshots:
+
+  
   Creating the Amazon Linux instance.
   <img width="314" height="206" alt="image" src="https://github.com/user-attachments/assets/9e8dd321-e618-4f23-acaf-f7f401c50938" />
 
