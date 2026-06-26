@@ -25,25 +25,25 @@ This repository contains my academic and personal projects related to AWS Cloud,
 - Screenshots:
 
   
-  Creating the Amazon Linux instance.
+  Step 1: Launching an Amazon Linux EC2 instance.
   <img width="314" height="206" alt="image" src="https://github.com/user-attachments/assets/9e8dd321-e618-4f23-acaf-f7f401c50938" />
 
-  Selected the default AMI and choose 64 - bit processor.
+  Step 2: Selecting the Amazon Linux AMI (64-bit).
   <img width="374" height="150" alt="image" src="https://github.com/user-attachments/assets/a576bd7e-1d25-4771-9607-cd6d1bf0353b" />
 
-  Selecting the t2.medium, while running the Application instance type must be huge.
+  Step 3: Choose an EC2 instance type (t2.medium for this deployment). Becouse the particuler Application need huge performance.
   <img width="820" height="338" alt="image" src="https://github.com/user-attachments/assets/8cbdf5cb-9168-4c2d-9135-57313299361f" />
 
-  Creating the Key pair. It is like username or password. 
+  Step 4: Creating a key pair for secure SSH access to the EC2 instance. 
   <img width="578" height="402" alt="image" src="https://github.com/user-attachments/assets/7c707943-d37c-49b9-9d8d-ae30a17773aa" />
 
-  Choose the Default VPC and Security Group & Turned on the HTTP traffic then only it can be viewed on Browser.
+  Step 5: Configure the security group to allow HTTP (port 80) and the application port (e.g. 8502) so the application is accessible from a browser.
   <img width="372" height="177" alt="image" src="https://github.com/user-attachments/assets/7c0e6f62-af49-4a40-8511-43a32086ee0f" />
 
   Configured the Storage as 30GB.
   <img width="830" height="324" alt="image" src="https://github.com/user-attachments/assets/f24616d5-c9ef-4108-96da-2540a0fb2231" />
 
-  Number of instance is 1. and click on Launch instance.
+  Number of instance is 1. and clicked on Launch instance.
   <img width="340" height="474" alt="image" src="https://github.com/user-attachments/assets/59d576da-7d93-4b03-aec8-2a936a0f6fa5" />
 
   You can see that Instance is running.
@@ -95,11 +95,43 @@ This repository contains my academic and personal projects related to AWS Cloud,
 ### Project 2: Portfolio Website Hosting on AWS EC2
 - Static website deployed on AWS EC2.
 - Technologies: HTML, CSS, AWS EC2, Linux
-- Repository: (https://github.com/Derick-Roshan/Portfolio-website.git)
-- Screenshots: Coming Soon
+- Repository: https://github.com/Derick-Roshan/Portfolio-website
+- Screenshots:
 
+This is Portfolio website created with HTML & CSS, uploaded on github.
+<img width="364" height="192" alt="image" src="https://github.com/user-attachments/assets/1ce936ed-034c-426e-85c3-2c5f318f63ab" />
+
+Creation of instance on aws.
+<img width="380" height="168" alt="image" src="https://github.com/user-attachments/assets/ce002e77-c8a8-4461-b48d-a6f68517477d" />
+<img width="379" height="164" alt="image" src="https://github.com/user-attachments/assets/2a0712ba-66c2-4cb5-931c-3976a2ec4caf" />
+
+Connecting the Amazon-linux server.
+<img width="297" height="147" alt="image" src="https://github.com/user-attachments/assets/ccd70ae5-e8bf-403a-8646-9ed370504d63" />
+
+We need to install HTTPD and GIT before cloning the website project from github.
+<img width="307" height="124" alt="image" src="https://github.com/user-attachments/assets/0e31ef15-4f0c-412a-afbb-d1da422eb23c" />
+
+We have to keep the particular project in the var/www/html path.
+<img width="416" height="106" alt="image" src="https://github.com/user-attachments/assets/91b907d5-4e80-4e08-b863-e01c7cc2df0b" />
+
+Copy past the ip address to see the Output.
+<img width="416" height="152" alt="image" src="https://github.com/user-attachments/assets/de5ce918-07f8-4450-87fc-352a386939d8" />
+
+Here you go!
+<img width="415" height="219" alt="image" src="https://github.com/user-attachments/assets/ba1a1b22-2078-49b0-9a67-e65f42010e76" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Project 3: Terraform Web Server Automation
 - Automated EC2 provisioning using Terraform.
 - Technologies: Terraform, AWS, Git
-- Repository: (https://github.com/Derick-Roshan/web-server-terraform.git)
+- Repository: https://github.com/Derick-Roshan/web-server-terraform
 - Screenshots: Coming Soon
+
+### Project 4: Static Website Hosting on Amazon S3
+
+- Hosted a static portfolio website using Amazon S3 Static Website Hosting.
+- Configured bucket permissions and enabled public access for website hosting.
+- Uploaded HTML, CSS, and image assets to the S3 bucket.
+- Accessed the website using the S3 static website endpoint.
+- Technologies: HTML, CSS, Amazon S3, AWS
+- Repository: https://github.com/Derick-Roshan/Portfolio-website
