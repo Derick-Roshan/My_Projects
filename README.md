@@ -135,3 +135,62 @@ Here you go!
 - Accessed the website using the S3 static website endpoint.
 - Technologies: HTML, CSS, Amazon S3, AWS
 - Repository: https://github.com/Derick-Roshan/Portfolio-website
+
+Creating S3 Bucket
+<img width="415" height="151" alt="image" src="https://github.com/user-attachments/assets/ac06c3a9-8279-4a4b-a576-0df173514d70" />
+
+The Bucket name should be unique because is Global.
+<img width="415" height="146" alt="image" src="https://github.com/user-attachments/assets/95577b3f-e3ef-4371-9396-31d942b5d3b9" />
+
+We need to enable the ACL enable to make bucket public.
+<img width="416" height="109" alt="image" src="https://github.com/user-attachments/assets/6ee23d19-c9dd-44d7-a704-0b1c89adad7d" />
+
+I unchecked the “Block all public access” and need to accept the acknowledgment.
+<img width="416" height="156" alt="image" src="https://github.com/user-attachments/assets/9fd7c1dd-6a7f-466f-8dfb-caaaf5aa4f92" />
+
+And click on “Create bucket”
+<img width="415" height="62" alt="image" src="https://github.com/user-attachments/assets/022f1518-86a1-45ce-ad3c-f9a2f6f6ea70" />
+
+After creating the bucket we need to upload the HTML & CSS all the website files.  That files are known as “Objects” in S3.
+We can do this by drag and drop.
+<img width="415" height="149" alt="image" src="https://github.com/user-attachments/assets/95ded14a-6528-4ffb-a271-ececb9501b4e" />
+
+And click on upload. 
+<img width="415" height="116" alt="image" src="https://github.com/user-attachments/assets/1d9abd00-7f45-486f-bde1-cd2d72711e8f" />
+
+You can see files have been uploaded.
+<img width="414" height="132" alt="image" src="https://github.com/user-attachments/assets/db5df78c-224a-4992-af64-a5bad88664ce" />
+
+Click on “Properties” and search for “Static web hosting” click on edit and enable it.
+<img width="415" height="79" alt="image" src="https://github.com/user-attachments/assets/c8f2354b-03f3-479f-a603-1679c6d7ed3a" />
+<img width="416" height="147" alt="image" src="https://github.com/user-attachments/assets/3122e79a-5b48-457f-b0b8-4a410ea99cfa" />
+
+Go inside the “index.html”
+<img width="415" height="105" alt="image" src="https://github.com/user-attachments/assets/d592c7d6-bc42-4b57-adbf-ea93af466d8f" />
+
+Go to “Permissions” and click on Edit.
+<img width="415" height="151" alt="image" src="https://github.com/user-attachments/assets/fa1f2b79-b016-42a1-afdb-35d8d5928946" />
+
+Enable the read for Everyone (public access), and grant the access.
+<img width="415" height="174" alt="image" src="https://github.com/user-attachments/assets/bad9ddb4-3d5c-47e8-9aa3-2bc5d0fe448e" />
+
+Copy the URL and past it in a new tab!
+<img width="415" height="164" alt="image" src="https://github.com/user-attachments/assets/32c5e445-fdbd-4165-b016-45bf7306a74e" />
+
+You can see that CSS files are not integrated, to do that.
+<img width="415" height="301" alt="image" src="https://github.com/user-attachments/assets/8dece323-af2a-4daa-b5a9-07ab51305ac5" />
+
+Go inside the Bucket and select all.
+<img width="415" height="144" alt="image" src="https://github.com/user-attachments/assets/cc4c83c9-778c-450f-a22e-fa96b082e532" />
+
+Click on “Actions” and click on “Make public using ACL”
+<img width="416" height="295" alt="image" src="https://github.com/user-attachments/assets/b5cad00f-157e-4e86-98ac-efe50272e64d" />
+
+Click on “Make public”
+<img width="415" height="73" alt="image" src="https://github.com/user-attachments/assets/d1c3a118-43f4-455f-b900-7f6322d7678c" />
+
+Here you go!
+<img width="416" height="180" alt="image" src="https://github.com/user-attachments/assets/d77d1e73-9397-4047-93bf-6213571256e8" />
+
+
+
