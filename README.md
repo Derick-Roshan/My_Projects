@@ -89,7 +89,7 @@ This repository contains my academic and personal projects related to AWS Cloud,
   You can see that the project has been deployed Successfully.
   <img width="830" height="460" alt="image" src="https://github.com/user-attachments/assets/f3a72868-95c3-4856-ae55-96c960f2ad11" />
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### Project 2: Portfolio Website Hosting on AWS EC2
@@ -120,12 +120,63 @@ Copy past the ip address to see the Output.
 Here you go!
 <img width="415" height="219" alt="image" src="https://github.com/user-attachments/assets/ba1a1b22-2078-49b0-9a67-e65f42010e76" />
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Project 3: Terraform Web Server Automation
 - Automated EC2 provisioning using Terraform.
 - Technologies: Terraform, AWS, Git
 - Repository: https://github.com/Derick-Roshan/web-server-terraform
-- Screenshots: Coming Soon
+- Screenshots:
+
+This is my terraform files stored in Github repo.
+<img width="415" height="168" alt="image" src="https://github.com/user-attachments/assets/12de0576-71e4-4a23-bb86-fa66305c2fa4" />
+
+Main.tf
+<img width="402" height="284" alt="image" src="https://github.com/user-attachments/assets/3f1b9c8e-c757-4548-b78e-6001d1043fa8" />
+<img width="322" height="285" alt="image" src="https://github.com/user-attachments/assets/14ae1bce-6df0-4fbd-a2cf-62d19d7873ef" />
+<img width="328" height="327" alt="image" src="https://github.com/user-attachments/assets/887b65cd-7a2c-487b-b076-b0d7bfa6f1fd" />
+<img width="365" height="264" alt="image" src="https://github.com/user-attachments/assets/2317f3f3-8f86-48ac-bf8c-6eec1bdaaa0c" />
+
+Provider.tf
+<img width="296" height="147" alt="image" src="https://github.com/user-attachments/assets/d08f1ce9-60ce-4775-8811-4ce3c3f31ee5" />
+
+Output.tf
+<img width="302" height="150" alt="image" src="https://github.com/user-attachments/assets/4ddc1a9d-a0dc-4516-afb3-8a8bfda7d72e" />
+
+Now I am opening the terminal and cloning the project to my local.
+<img width="352" height="189" alt="image" src="https://github.com/user-attachments/assets/93270027-9d70-4922-86c6-a59aafbd1b29" />
+
+Now initiating the terraform. (terraform init)
+<img width="361" height="180" alt="image" src="https://github.com/user-attachments/assets/669c9c01-647b-4d5f-97ed-10ce9f652c1b" />
+
+Now going to AWS to create the “access key” on “Security credentials”
+<img width="476" height="150" alt="image" src="https://github.com/user-attachments/assets/0e8151f4-3d36-4ea6-9387-ded6dec96a7c" />
+<img width="415" height="138" alt="image" src="https://github.com/user-attachments/assets/6c6709c9-d3d7-42ad-aa37-2d506bbcec3b" />
+<img width="416" height="193" alt="image" src="https://github.com/user-attachments/assets/56f42118-6ae9-4156-95cb-3505a8534146" />
+
+Copy and paste the credentials into the terminal to configure the AWS CLI.
+<img width="415" height="78" alt="image" src="https://github.com/user-attachments/assets/11baf560-7a7e-43ad-abc1-b0291be92ed8" />
+
+Terraforom plan
+<img width="383" height="205" alt="image" src="https://github.com/user-attachments/assets/a11fd19b-82b4-47b8-ae92-b59b44df03ee" />
+
+This is because I didn’t give the permission for key-pair.
+<img width="416" height="221" alt="image" src="https://github.com/user-attachments/assets/180d1bc0-18b4-47aa-b66d-067b7be568a2" />
+
+Terraform apply:
+<img width="415" height="149" alt="image" src="https://github.com/user-attachments/assets/33427df9-8d10-4d6d-9233-fdaeb41529ea" />
+
+All the resources have been successfully deployed.
+<img width="415" height="217" alt="image" src="https://github.com/user-attachments/assets/9abd4d6c-fcab-49d1-a0f6-e824b1d4ae8c" />
+
+Here you go!
+<img width="343" height="207" alt="image" src="https://github.com/user-attachments/assets/f6e8f548-32e8-41d3-9c14-f56a716a8482" />
+
+Terraform destroy:
+<img width="415" height="239" alt="image" src="https://github.com/user-attachments/assets/d4bad11b-4dd7-4cc2-a6e4-afe2f02159ce" />
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Project 4: Static Website Hosting on Amazon S3
 
